@@ -201,14 +201,15 @@ public:
             playRound();
         }
 
-        cout << "\n\n===== GAME OVER =====\n";
+        cout << "\n\n\t===== GAME OVER =====\n";
         if (player1.empty() && player2.empty())
-            cout << "It's a draw!\n";
+            cout << "\tIt's a draw!\n";
         else if (player1.empty())
-            cout << "Player 2 wins the game!\n";
+            cout << "\tPlayer 2 wins the game!\n";
         else
-            cout << "Player 1 wins the game!\n";
+            cout << "\tPlayer 1 wins the game!\n";
     }
 };
 
 #endif
+
